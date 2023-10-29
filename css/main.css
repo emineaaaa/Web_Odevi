@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    transition: background-color 0.5 ease;
+    background: linear-gradient(to bottom, #f2d6ff, #8752c5); 
+
+}
+
+a{
+    text-decoration: none;
+    color: wheat;
+}
+h1{
+    font-family: "Open Sans",sans-serif;
+}
+
+h2{
+    padding: 50px;
+    color: cadetblue;
+    font-size: xx-large;
+    text-align: center;
+    
+}
+
+
+
+#navbar{
+    
+    color:bisque;
+    display: flex;
+    justify-content:space-around ; 
+    align-items: center; 
+    padding: 0.75rem;
+    height: 70px;
+    font-family: "Open Sans",sans-serif;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: cadetblue;
+
+    
+}
+
+
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+
+#navbar ul li a{
+    padding: 0.5rem;
+}
+
+#navbar ul li a:hover {
+    background:rgb(10, 43, 41)
+    
+
+}
+
+
+
+#anasayfa {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Open Sans",sans-serif;
+    padding: 10rem;
+    height: 600px;
+ 
+}
+ 
+
+#anasayfa .giris h2{
+    margin-bottom: 3px;
+    color: rgb(73, 1, 1);
+    font-size: larger;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.mail-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: cadetblue;
+    color: bisque;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-left:0px;
+    
+}
+
+#anasayfa .giris{
+   
+    font-size: 50px;
+}
+
+#hakkimda{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Open Sans",sans-serif;
+    padding: 100px;
+
+}
+
+
+
+#hakkimda img{
+    max-width: 40%;
+    height: auto;
+    border-radius: 100%;
+    float: left;
+
+}
+
+#hakkimda p{
+    font-family: "Open Sans",sans-serif;
+    font-size: large;
+    color: rgb(73, 1, 1);
+    padding: 10px;
+  
+
+}
+
+#hakkimda .resim_ve_paragraf img {
+    float:left;
+    margin-right:50px;
+
+
+}
+
+#yetenekler {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: "Open Sans",sans-serif;
+    padding: 100px;
+    margin:0 auto;
+    text-align: left;
+    
+
+
+}
+
+#yetenekler p{
+    color: rgb(73, 1, 1);
+    font-size: larger;
+    float: left;
+    padding-left:40px
+
+}
+
+
+.yetenekler {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.yetenek {
+    margin-bottom: 10px;
+}
+
+.yetenek-ad {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.yuzde-gosterge {
+    width: 100%;
+    height: 15px;
+    background-color: wheat;
+    border-radius: 5px;
+    overflow: hidden;
+    
+}
+
+.yuzde-doluluk {
+    height: 100%;
+    background-color: rgb(73, 1, 1);
+    border-radius: 5px;
+}
+
+
+
+#iletisim {
+    width: 300px;
+    padding: 100px; 
+    font-family: "Open Sans", sans-serif;
+    text-align: center; /* Form elemanlarını yatayda ortalar */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px; /* Formun genişliği */
+    margin: 0 auto; /* Formu yatayda ortalar */
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    width: 100%; /* Input ve textarea'nın genişliği */
+    padding: 10px; /* Input ve textarea içeriğinden kenara mesafe koyar */
+    box-sizing: border-box; /* Padding ve border genişliği ile birlikte toplam genişliği korur */
+}
+
+button {
+    background-color: cadetblue;
+    color: rgb(73, 1, 1);
+    border-color: rgb(73, 1, 1);
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 50px;
+    width: 100%; /* Buttonun genişliği formun genişliğine eşit olur */
+    box-sizing: border-box; /* Padding ve border genişliği ile birlikte toplam genişliği korur */
+    transition: background-color 0.3s ease; /* Hover efekti için geçiş */
+}
+
+button:hover {
+    background-color: wheat;
+}
+
+#ad, #email, #mesaj {
+    border-radius: 50px;
+    color: rgb(73, 1, 1);
+    width: 100%; /* Input ve textarea'nın genişliği formun genişliğine eşit olur */
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: wheat;
+    text-align: center;
+    
+}
+
+
+i{
+    font-size: 50px;
+    color: rgb(73, 1, 1);
+}
+
+footer{
+    background-color: #111;
+}
+.footerContainer{
+    width: 100px;
+    padding: 70px 30px 20px;
+}
+
+.socialIcons{
+    display: flex;
+}
+.socialIcons a{
+    color:  black;
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin:10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footerButton{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+.footerButton p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
